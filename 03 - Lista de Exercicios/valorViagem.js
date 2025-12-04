@@ -1,0 +1,31 @@
+// let variavel =10;
+
+// variavel = 20;
+// const pi = 3.14;
+
+// console.log("Aula carregada com sucesso!");
+
+/*
+
+Faça um programa para calcular o valor de uma viagem.
+
+Você terá 3 variáveis. Sendo elas:
+1 - Preço do combustível;
+2 - Gasto médio de combustível do carro por KM;
+3 - Distância em KM da viagem;
+
+*/
+
+const precoCombustivel = 5.79
+const kmPorLitros = 10;
+const distanciaEmKm = 100;
+
+const litrosConsumidos = distanciaEmKm / kmPorLitros;
+const valorGasto = litrosConsumidos * precoCombustivel;
+
+
+console.log("Preço do combustível: R$" + precoCombustivel);
+console.log("Gasto médio do carro por KM: " + kmPorLitros + " KM/L");
+console.log("Distância da viagem: " + distanciaEmKm + " KM");
+console.log("Valor gasto na viagem: R$" + valorGasto.toFixed(2));
+
